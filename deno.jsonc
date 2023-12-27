@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-read --watch main.ts"
+  },
+  "imports": {
+    "vue": "npm:vue",
+    "@vue-email/compiler": "npm:@vue-email/compiler@0.8.5"
+  }
+}
